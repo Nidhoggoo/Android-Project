@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".Load">
+
+    <ProgressBar
+        android:id="@+id/pb_jindu"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="800dp"
+        android:layout_height="30dp"
+        android:layout_x="83dp"
+        android:layout_y="203dp"
+        android:progressDrawable="@drawable/color" />
+
+    <TextView
+        android:id="@+id/tv_jiemian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="133dp"
+        android:layout_y="309dp"
+        android:textSize="25sp"
+        android:text="界面初始化完成...."
+        android:textColor="#F44336" />
+
+    <TextView
+        android:id="@+id/tv_huanying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="866dp"
+        android:layout_y="104dp"
+        android:text="欢迎您使用智能家居系统……"
+        android:textColor="#F44336"
+        android:textSize="25sp" />
+</AbsoluteLayout>

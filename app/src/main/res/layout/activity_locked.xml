@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".locked">
+
+    <ImageView
+        android:id="@+id/iv_validation"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_x="336dp"
+        android:layout_y="367dp"
+        android:src="@drawable/validation" />
+
+    <ImageView
+        android:id="@+id/iv_locked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="390dp"
+        android:layout_y="373dp"
+        android:src="@drawable/huadong" />
+
+
+</AbsoluteLayout>
