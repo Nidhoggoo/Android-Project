@@ -11,12 +11,14 @@
         android:id="@+id/pb_start"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="800dp"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
         android:layout_x="141dp"
         android:layout_y="233dp"
-        android:background="@drawable/color" />
+        android:max="100"
+        android:progressDrawable="@drawable/color" />
 
     <TextView
+        android:id="@+id/tv_load"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="158dp"

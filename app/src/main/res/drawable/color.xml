@@ -3,9 +3,8 @@
     <item>
         <clip>
             <shape>
-                <gradient android:startColor="#74f65b"/>
-                <gradient android:endColor="#216cf3"/>
-
+                <gradient android:startColor="#74f75b"
+                    android:endColor="#206bf5"/>
             </shape>
         </clip>
     </item>
