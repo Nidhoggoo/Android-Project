@@ -8,7 +8,7 @@ import android.widget.TextView;
 import org.w3c.dom.Text;
 
 public class locked extends AppCompatActivity {
-    TextView textView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

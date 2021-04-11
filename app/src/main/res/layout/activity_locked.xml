@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background2"
     tools:context=".locked">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="162dp"
+        android:layout_x="105dp"
+        android:layout_y="158dp"
+        android:alpha="0.8"
+        android:background="#a29e9b" />
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_x="104dp"
+        android:layout_y="158dp"
+        android:background="#f7f7f7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="112dp"
+        android:layout_y="164dp"
+        android:text="IP地址:  127.0.0.1"
+        android:textColor="#020b1c"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:layout_x="103dp"
+        android:layout_y="210dp"
+        android:background="@drawable/pancel" />
+
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_x="104dp"
+        android:layout_y="217dp"
+        android:background="@drawable/huadong" />
+
+
+
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_x="106dp"
+        android:layout_y="269dp"
+        android:background="#f7f7f7"
+        android:text="登录"
+        android:textColor="#020b1c"
+        android:textSize="20sp" />
+
+
+
+</AbsoluteLayout>
