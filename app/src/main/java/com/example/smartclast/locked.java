@@ -42,7 +42,7 @@ public class locked extends AppCompatActivity {
         iv_validation = findViewById(R.id.iv_validation);
     }
 
-    //效果可能更好，但不是很理解
+    //效果可能更好，但不理解
 //    private void setView() {
 //        iv_validation.setOnTouchListener(new View.OnTouchListener() {
 //            @Override

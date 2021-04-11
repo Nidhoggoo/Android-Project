@@ -114,7 +114,6 @@ public class linkage extends Fragment {
             @Override
             public void run() {
                 while (true){
-                    System.out.println("!2344");
                     if (num2 > 0){
                         if (sp_2.getSelectedItem().toString().equals(">")){
                             if (sp_1.getSelectedItem().toString().equals("温度")){

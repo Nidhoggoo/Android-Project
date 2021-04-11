@@ -115,11 +115,11 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
 
         //先设置actionBar，最底下并implements ActionBar.TabListener，实现3个方法，为actionBar设置跳转
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-        actionBar.addTab(actionBar.newTab().setText("选择").setTabListener((ActionBar.TabListener) this));
-        actionBar.addTab(actionBar.newTab().setText("基本").setTabListener((ActionBar.TabListener) this));
-        actionBar.addTab(actionBar.newTab().setText("联动").setTabListener((ActionBar.TabListener) this));
-        actionBar.addTab(actionBar.newTab().setText("模式").setTabListener((ActionBar.TabListener) this));
-        actionBar.addTab(actionBar.newTab().setText("绘图").setTabListener((ActionBar.TabListener) this));
+        actionBar.addTab(actionBar.newTab().setText("选择").setTabListener(this));
+        actionBar.addTab(actionBar.newTab().setText("基本").setTabListener(this));
+        actionBar.addTab(actionBar.newTab().setText("联动").setTabListener(this));
+        actionBar.addTab(actionBar.newTab().setText("模式").setTabListener(this));
+        actionBar.addTab(actionBar.newTab().setText("绘图").setTabListener(this));
 
         //设置ViewPager,添加5个界面
         vp_Main.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
