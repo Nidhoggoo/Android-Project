@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".load">
+
+    <ProgressBar
+        android:id="@+id/pb_start"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="800dp"
+        android:layout_height="30dp"
+        android:layout_x="141dp"
+        android:layout_y="233dp"
+        android:background="@drawable/color" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="158dp"
+        android:layout_y="340dp"
+        android:text="正在加载串口配置......"
+        android:textColor="#eb3223"
+        android:textSize="20sp" />
+
+</AbsoluteLayout>
