@@ -12,8 +12,7 @@
         android:layout_height="162dp"
         android:layout_x="105dp"
         android:layout_y="158dp"
-        android:alpha="0.8"
-        android:background="#a29e9b" />
+        android:background="#99cccccc"/>
 
     <ImageView
         android:layout_width="340dp"
@@ -22,15 +21,26 @@
         android:layout_y="158dp"
         android:background="#f7f7f7" />
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="112dp"
-        android:layout_y="164dp"
-        android:text="IP地址:  127.0.0.1"
+        android:layout_y="163dp"
+        android:text="IP地址:  "
         android:textColor="#020b1c"
         android:textSize="20sp" />
 
+    <EditText
+        android:id="@+id/et_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="187dp"
+        android:layout_y="153dp"
+        android:text="127.0.0.1"
+        android:textColor="#020b1c"
+        android:ems="8"
+        android:textSize="20sp" />
 
     <ImageView
         android:layout_width="340dp"
@@ -40,6 +50,7 @@
         android:background="@drawable/pancel" />
 
     <ImageView
+        android:id="@+id/iv_huadong"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:layout_x="104dp"
@@ -50,6 +61,7 @@
 
 
     <Button
+        android:id="@+id/btn_login"
         android:layout_width="340dp"
         android:layout_height="wrap_content"
         android:layout_x="106dp"
